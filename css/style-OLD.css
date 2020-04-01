@@ -1,0 +1,573 @@
+html {
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'TheSansPlain', Helvetica, Arial, sans-serif;
+}
+
+.listStandard {
+    padding-left: 30px;
+}
+
+.listStandard li {
+    text-align: left;
+    list-style: initial;
+}
+
+.section-color {
+    background-color: #f2f1f1;
+    padding-bottom: 25px;
+}
+
+
+/* Start Style Solution */
+
+#sectionSimpanan,
+#sectionProteksi {
+    min-height: 60vh;
+    max-height: 60vh;
+}
+
+#carouselSimpanan,
+#carouselProteksi {
+    min-height: 400px;
+    height: 400;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238C7A6A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238C7A6A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#carouselSimpanan .btn-secondary,
+#carouselProteksi .btn-secondary {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 1px 0;
+    padding-top: 1px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 18px;
+    padding-top: -5px;
+    background-color: #f2f1f1;
+    margin-bottom: 20rem;
+    border: none;
+}
+
+#sectionSimpanan .box-title,
+#sectionProteksi .box-title {
+    color: #8C7A6A;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+}
+#sectionSimpanan .box-title h4,
+#sectionProteksi .box-title h4 {
+    font-weight: bold;
+}
+#carouselSimpanan .card-deck,
+#carouselProteksi .card-deck {
+    height: 350px;
+    min-height: 350px;
+    color: #8C7A6A;
+    border: none;
+}
+#carouselSimpanan .justify-content-sm-center {
+    margin-bottom: 2rem;
+}
+#carouselSimpanan .box-body-card,
+#carouselProteksi .box-body-card {
+    color: #ffffff;
+    margin-top: -4rem;
+    margin-left: 3.5rem;
+    background-color: #8C7A6A;
+    text-align: center;
+    width: 70%;
+    min-height: 100px;
+}
+#carouselSimpanan .box-body-card h4,
+#carouselProteksi .box-body-card h4 {
+    font-size: 17px;
+    padding-top: 1rem;
+    color: #ffffff;
+}
+.box-body-card a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Section Proteksi */
+#sectionProteksi {
+    background-color: #f2f1f1;
+}
+#sectionInvestasi,
+#sectionInvestasi p {
+    color: #8C7A6A;
+}
+#sectionBiaya,
+#sectionBiaya p {
+    color: #8C7A6A;
+    background-color: #f2f1f1;
+}
+
+/* Finish Style Solution */
+
+/* Start For Tablet */
+@media only screen and (max-width:1024px) {
+    /* Start Style Home */
+    
+    #sectionHeaderPremier,
+    #carouselHomePremier,
+    #carouselHomePremier .carousel-inner {
+        height: 40vh;
+        background-color: #8a7a67;
+    }
+    
+    #carouselHomePremier .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 13rem;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #carouselHomePremier .carousel-caption h4 {
+        font-size: 14px;
+    }
+    /* Finish Style Home */
+    /* Start Style Solutions */
+    
+    #sectionSimpanan,
+    #carouselSimpanan {
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    
+    #sectionSimpanan .container,
+    #sectionProteksi .container,
+    #sectionInvestasi .container,
+    #sectionBiaya .container {
+        max-width: 750px !important;
+    }
+    
+    #sectionSimpanan .box-title,
+    #sectionProteksi .box-title,
+    #sectionInvestasi .box-title,
+    #sectionBiaya .box-title {
+        color: #8C7A6A;
+        margin-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 1.5rem;
+    }
+    
+    #sectionProteksi {
+        background-color: #f2f1f1;
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    
+    #sectionInvestasi,
+    #sectionBiaya {
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+    
+    #carouselSimpanan .box-body-card,
+    #carouselProteksi .box-body-card {
+        color: #ffffff;
+        margin-top: -4rem;
+        margin-left: 2rem;
+        background-color: #8C7A6A;
+        text-align: center;
+        width: 70%;
+        min-height: 100px;
+        font-size: 12px;
+    }
+    
+    #carouselProteksi .box-body-card a {
+        color: #ffffff;
+    }
+    
+    #carouselSimpanan .card-deck,
+    #carouselProteksi .card-deck {
+        height: 250px;
+        min-height: 250px;
+        color: #8C7A6A;
+        border: none;
+    }
+    
+    #carouselSimpanan .box-body-card h4,
+    #carouselProteksi .box-body-card h4 {
+        font-size: 14px;
+        padding-top: 1rem;
+        color: #ffffff;
+    }
+    
+    #carouselSimpanan .btn-secondary,
+    #carouselProteksi .btn-secondary {
+        margin-top: -10rem;
+    }
+    /* Finish Style Solutions */
+    /*Start Footer Style*/
+    
+    .footer .col-sm-2 {
+        min-width: 10rem !important;
+        font-size: 14px;
+    }
+    
+    .footer .col-md-12 {
+        margin-bottom: 1rem;
+    }
+    /*End Footer Style*/
+}
+
+/* Finish For Tablet */
+
+/* Start Style Smartphone */
+@media only screen and (max-width:736px) {
+    /* Page Style Footer*/
+    
+    .icon-footer img {
+        margin-top: 10px;
+        width: 150px !important;
+        margin-bottom: -3rem;
+        padding-bottom: 1rem;
+    }
+    
+    .footer .col-sm-2 {
+        height: 130px;
+        font-size: 13px;
+    }
+    
+    .footer .location-list {
+        margin-bottom: 6rem;
+    }
+    
+    ul.misc_icons {
+        display: none;
+    }
+    
+    ul.misc_links {
+        float: left;
+    }
+    
+    .misc_links {
+        text-align: center;
+    }
+    
+    #footer .copyright {
+        float: left;
+        padding: 18px 0;
+        text-align: center;
+        width: 40%!important;
+        margin-left: 2%;
+    }
+    
+    .misc_container {
+        float: left;
+        position: relative;
+        left: 7%;
+        text-align: left;
+    }
+    
+    .misc_container li {
+        float: left;
+        position: relative;
+    }
+    /* ie needs position:relative here*/
+    
+    .misc_container a {
+        text-decoration: none;
+        /* margin: 10px; */
+        float: left;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    .misc_container a:hover {
+        text-decoration: blue;
+    }
+    
+    #content {
+        overflow: hidden
+    }
+    /* hide horizontal scrollbar*/
+    /*End Style Footer*/
+    /* Page Insight style */
+    
+    #carouselInsight .carousel-item {
+        height: 100%;
+        width: 100%;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .product-overlay {
+        height: 170px;
+        background-color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #carouselInsight .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+    
+    #carouselInsight .carousel-control-prev {
+        left: 0px;
+    }
+    
+    #carouselInsight .carousel-control-next {
+        right: 0px;
+    }
+    
+    #carouselInsight {
+        margin-left: 5rem;
+    }
+    /* Finish Page Insight style */
+    /* Start Style Solution */
+    
+    #sectionHeaderSolution,
+    #sectionHeaderSolution img {
+        height: 30vh;
+        background-color: #8C7A6A;
+    }
+    
+    #sectionSimpanan {
+        max-height: 75vh;
+        min-height: 55vh;
+    }
+    
+    #carouselSimpanan .carousel-inner,
+    #carouselProteksi .carousel-inner {
+        width: 80%;
+        margin-left: 2rem;
+    }
+    
+    #carouselSimpanan .card-deck,
+    #carouselProteksi .card-deck {
+        height: 250px;
+        min-height: 200px;
+        color: #8C7A6A;
+        border: none;
+        margin-bottom: 1rem;
+    }
+    
+    #carouselSimpanan .box-body-card,
+    #carouselProteksi .box-body-card {
+        color: #ffffff;
+        margin-top: -3rem;
+        margin-left: 3rem;
+        background-color: #8C7A6A;
+        text-align: center;
+        width: 70%;
+        min-height: 100px;
+    }
+    
+    #carouselSimpanan .box-body-card h4,
+    #carouselProteksi .box-body-card h4 {
+        font-size: 14px;
+        padding-top: 1rem;
+        color: #ffffff;
+    }
+    
+    #sectionProteksi {
+        background-color: #f2f1f1;
+        max-height: 75vh;
+        min-height: 55vh;
+        margin-top: 13rem;
+    }
+    
+    #sectionInvestasi {
+        margin-top: 10rem;
+    }
+    /* Finish Style Solutions */
+    /* Start Page Insight style */
+    
+    #carouselInsight .carousel-item {
+        height: 100%;
+        width: 100%;
+        margin-left: 2rem;
+        background: no-repeat center center scroll;
+    }
+    /* End Page Insight style */
+}
+
+/* Finish Style Smartphone */
+.carousel-item {
+    height: 70vh;
+    width: 100%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.embed-responsive {
+    min-height: 300px;
+    height: auto;
+}
+h4 {
+    color: #8a7a67;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+h5 {
+    color: #8a7a67;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+a {
+    color: #8a7a67;
+    text-decoration: none;
+}
+a:hover {
+    color: #8a7a67;
+}
+a:active {
+    color: #8a7a67;
+}
+a:visited {
+    color: #8a7a67;
+}
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-more {
+    background-color: #8a7a67;
+    color: aliceblue;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.premier {
+    margin-top: 20px;
+}
+.box-pilar {
+    width: 100%;
+    height: 70%;
+    /* min-height: 250px; */
+}
+.ket {
+    margin-top: 30px;
+}
+.ket a:link {
+    color: #8a7a67;
+}
+.informasi a:link {
+    color: #8a7a67;
+    text-decoration: none;
+}
+#imageInsight {
+    margin-top: -70px;
+    min-height: 150px;
+    max-height: 200px;
+}
+#containerInsight {
+    min-height: 400px;
+    padding-bottom: px;
+}
+.footer {
+    background-color: #ddd8d3;
+    position: absolute;
+    width: 100%;
+    min-height: 230px;
+    height: auto;
+    padding-top: 10px;
+}
+.row-informasi {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.informasi {
+    color: #8a7a67;
+    font-weight: bold;
+    margin-top: -25px;
+    font-size: 13px;
+}
+
+/* CSS Page Service */
+.box-banner {
+    max-width: 100%;
+    min-height: 200px;
+}
+.box-banner img {
+    max-width: 100%;
+    min-height: 200px;
+}
+.box-image {
+    min-height: 210px;
+}
+.box-image img {
+    min-height: 210px;
+}
+
+/* Style Insight */
+#sectionInsight {
+    background-color: #f2f1f1;
+}
+.box-imageInsight {
+    width: 100%;
+    max-height: 280px;
+}
+.box-imageInsight img {
+    width: 100%;
+    min-height: 200px;
+}
+.box-desc {
+    height: 170px;
+    ;
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.name-owner {
+    color: #8C7A6A;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.more-info a {
+    text-decoration: underline;
+    /* text-align: center; */
+    
+    font-size: 14px;
+    /* position: absolute; */
+    
+    bottom: 5px;
+    color: #8C7A6A;
+}
+.box-content {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.product-overlay h5 {
+    color: #fff;
+    font-weight: bold;
+}

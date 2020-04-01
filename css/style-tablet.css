@@ -1,0 +1,1061 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Page Homepage Style Start */
+    #sectionHeaderPremier,
+    #carouselHomePremier,
+    #carouselHomePremier .carousel-inner {
+        height: 35vh;
+        background-color: #8a7a67;
+    }
+    #carouselHomePremier .carousel-item {
+        height: auto;
+        min-height: 35vh;
+        width: 100%;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* Page Homepage Style End */
+    /* Page Solution Style Start */
+    #sectionHeaderSolution {
+        height: 30vh;
+    }
+    #sectionHeaderSolution img {
+        height: 30vh;
+        background-color: #F2F1F1;
+        width: 100%;
+    }
+    #sectionInvestasi {
+        height: 40vh;
+    }
+    #sectionBiaya {
+        height: 40vh;
+    }
+    /* Page Solution Style End */
+    /* Start For Tablet */
+    /* Start Style Home */
+    #carouselHomePremier .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 5rem;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    #carouselHomePremier .carousel-caption h4 {
+        font-size: 28px;
+    }
+    /* Finish Style Home */
+    /* Start Style Solutions */
+    #sectionSimpanan,
+    #carouselSimpanan {
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    #sectionProteksi {
+        background-color: #f2f1f1;
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    #sectionInvestasi,
+    #sectionBiaya {
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+    #carouselSimpanan .box-body-card,
+    #carouselProteksi .box-body-card {
+        color: #ffffff;
+        margin-top: -4rem;
+        margin-left: 2rem;
+        background-color: #8C7A6A;
+        text-align: center;
+        width: 70%;
+        min-height: 100px;
+        font-size: 12px;
+    }
+    #carouselSimpanan .card-deck,
+    #carouselProteksi .card-deck {
+        height: 250px;
+        min-height: 250px;
+        color: #8C7A6A;
+        border: none;
+    }
+    #carouselSimpanan .box-body-card h4,
+    #carouselProteksi .box-body-card h4 {
+        font-size: 14px;
+        padding-top: 1rem;
+        color: #ffffff;
+    }
+    /* Finish Style Solutions */
+    /* Start Style Footer */
+    .footer h4 {
+        color: #8a7a67;
+        margin-top: 1rem;
+        font-size: 2vmax;
+    }
+    .footer .box-col {
+        width: 100px;
+    }
+    .footer .box-icons img {
+        max-width: 55%;
+        height: auto;
+    }
+    .footer .box-word {
+        float: left;
+        width: 150px;
+        margin-top: -1.6rem;
+        margin-left: -1rem;
+        margin-bottom: 1rem;
+    }
+    .footer .box-word p {
+        font-size: 12px;
+        color: #8a7a67;
+        font-weight: bold;
+        text-align: center;
+    }
+    .footer .box-word a {
+        font-size: 12px;
+        color: #8a7a67;
+        font-weight: bold;
+        text-align: center;
+    }
+    .overlay {
+        width: 83%;
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 15%;
+        margin-left: 7%;
+        height: 82px;
+        padding-top: 8%;
+        padding-bottom: 11%;
+    }
+    /* Finish Style Footer */
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    /* Page Homepage Style Start */
+    #sectionHeaderPremier,
+    #carouselHomePremier,
+    #carouselHomePremier .carousel-inner {
+        height: 35vh;
+        background-color: #8a7a67;
+    }
+    #carouselHomePremier .carousel-item {
+        height: auto;
+        min-height: 35vh;
+        width: 100%;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* Page Homepage Style End */
+    /* Page Solution Style Start */
+    #sectionHeaderSolution {
+        height: 40vh;
+    }
+    #sectionHeaderSolution img {
+        height: 30vh;
+        background-color: #F2F1F1;
+        width: 100%;
+    }
+    #sectionInvestasi {
+        height: 50vh;
+    }
+    #sectionBiaya {
+        height: 50vh;
+    }
+    /* Page Solution Style End */
+    /* Start For Tablet */
+    /* Start Style Home */
+    #carouselHomePremier .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 3rem;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    #carouselHomePremier .carousel-caption h4 {
+        font-size: 28px;
+    }
+    /* Finish Style Home */
+    /* Start Style Solutions */
+    #sectionSimpanan,
+    #carouselSimpanan {
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    #sectionProteksi {
+        background-color: #f2f1f1;
+        max-height: 45vh;
+        min-height: 45vh;
+    }
+    #sectionInvestasi,
+    #sectionBiaya {
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+    #carouselSimpanan .box-body-card,
+    #carouselProteksi .box-body-card {
+        color: #ffffff;
+        margin-top: -4rem;
+        margin-left: 2rem;
+        background-color: #8C7A6A;
+        text-align: center;
+        width: 70%;
+        min-height: 100px;
+        font-size: 12px;
+    }
+    #carouselSimpanan .card-deck,
+    #carouselProteksi .card-deck {
+        height: 250px;
+        min-height: 250px;
+        color: #8C7A6A;
+        border: none;
+    }
+    #carouselSimpanan .box-body-card h4,
+    #carouselProteksi .box-body-card h4 {
+        font-size: 14px;
+        padding-top: 1rem;
+        color: #ffffff;
+    }
+    /* Finish Style Solutions */
+    /* Start Style Footer */
+    .footer h4 {
+        color: #8a7a67;
+        margin-top: 1rem;
+        font-size: 2vmax;
+    }
+    .footer .box-col {
+        width: 100px;
+    }
+    .footer .box-icons img {
+        max-width: 55%;
+        height: auto;
+    }
+    .footer .box-word {
+        float: left;
+        width: 150px;
+        margin-top: -1.6rem;
+        margin-left: -1rem;
+        margin-bottom: 1rem;
+    }
+    .footer .box-word p {
+        font-size: 12px;
+        color: #8a7a67;
+        font-weight: bold;
+        text-align: center;
+    }
+    .footer .box-word a {
+        font-size: 12px;
+        color: #8a7a67;
+        font-weight: bold;
+        text-align: center;
+    }
+    .post-slide-solutions {
+        /* border: 1px solid red; */
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .post-slide-solutions .post-item-slide-solutions .post {
+        background: rgb(92, 92, 236);
+        display: inline-block;
+        height: 394px;
+        width: 300px;
+        margin: 0px 6px;
+        overflow: hidden;
+        position: relative;
+    }
+    .post-slide-solutions .prev {
+        top: 50%;
+        left: 9%;
+    }
+    .post-slide-solutions .next {
+        top: 50%;
+        right: 9%;
+    }
+    .post-slide-solutions .post-item-slide-solutions {
+        margin: 0px auto;
+        width: 73%;
+        height: 450px;
+    }
+    .image-post-item img {
+        float: left;
+        width: 100%;
+        height: 204px;
+    }
+    .paper-desc {
+        float: left;
+        width: 100%;
+        height: 190px;
+    }
+    .post-desc {
+        font-size: 12px;
+    }
+    .button-desc {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Premier Banking New Start */
+    .premier-banner {
+        height: 350px;
+    }
+    .banner-img-tablet,
+    .banner-img-phone,
+    .premier-banner-img,
+    .premier-banner-img-tablet,
+    .premier-banner-img-phone,
+    .premier-banner-content,
+    .solution-banner-img,
+    .banner-content {
+        height: 350px;
+    }
+    .premier-banner-content,
+    .banner-content {
+        left: 10%;
+        width: 50%;
+    }
+    .content-one,
+    .premier-content-one,
+    .content-egibility,
+    .premier-content-two,
+    .premier-content-three,
+    .content-four,
+    .content-four-video {
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 0 35px;
+    }
+    .white-egibility {
+        background-color: white;
+        margin: 50 0 90 0;
+        height: 970px;
+    }
+    .premier-content-two {
+        padding: 25px 0 25px 35px;
+    }
+    .premier-content-one p {
+        width: 90%;
+    }
+    .box-content-one-img {
+        width: 104%;
+        margin: 0 0 0 -3%;
+    }
+    .box-one-img {
+        padding: 10px 10px 0 10px;
+    }
+    .box-one-img img {
+        height: 100px;
+    }
+    .box-two-img {
+        padding: 10px 10px 0 10px;
+    }
+    .box-two-img img {
+        height: 100px;
+    }
+    .box-content-one-img a,
+    .box-content-one-img-phone a {
+        width: 90%;
+        height: 50px;
+        margin: 20px 5% 10 5%;
+        text-align: center;
+        font-size: 15px !important;
+    }
+    .content-two-left {
+        padding: 0px 20px 0 0;
+    }
+    .content-two-right {
+        padding: 0 0px 0 20px;
+    }
+    .content-four {
+        padding: 0 0 130px 35px;
+        margin: 25px 0 0 10%;
+    }
+    .content-four-video {
+        margin: -100px 0 0 10%;
+    }
+    .content-four-video embed {
+        height: 270px;
+    }
+    /* Premier Banking New End */
+    /* Insight Banking Start */
+    .insight-desc h4,
+    .insight-desc p {
+        width: 100%;
+    }
+    .box-slide-desc {
+        padding: 10% 5%;
+    }
+    .insight-slide p,
+    .insight-slide a {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    /* Insight Banking End */
+    /* Solution Banking Start */
+    .solution-content-img .solution-img,
+    .solution-content-slide .solution-img {
+        padding: 25px 20px;
+    }
+    .solution-content-img .tooltip-content,
+    .solution-content-img .learn-label,
+    .solution-content-slide .tooltip-content,
+    .solution-content-slide .learn-label {
+        font-size: 20px !important;
+    }
+    .solution-banner .banner-content {
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .solution-banner h4 {
+        padding: .5rem 0 !important;
+    }
+    .solution-content-img .tooltip-content p,
+    .solution-content-img .tooltip-content,
+    .solution-content-slide .tooltip-content p,
+    .solution-content-slide .tooltip-content {
+        left: 15% !important;
+        right: 15% !important;
+        padding: 20px 1rem !important;
+    }
+    .solution-content-img .learn-more,
+    .solution-content-slide .learn-more {
+        font-size: 14px !important;
+    }
+    .learn-title {
+        font-size: 18px !important;
+    }
+    .image-two-left {
+        width: 50%;
+    }
+    .image-two-left {
+        width: 50%;
+    }
+    .box-content-two-large {
+        float: left;
+        width: 100%;
+        margin-left: 10;
+        margin-right: 10;
+    }
+    .premier-phone,
+    .box-content-two-large-phone,
+    .img-premier-content-phone,
+    .image-two-left-content-phone,
+    .image-two-right-content-phone,
+    .img-premier-content-phone {
+        display: none;
+    }
+    .image-two-left-content {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .box-content-two-large {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .premier-content-service,
+    .detail-benefit {
+        float: left;
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 0 35px;
+    }
+    .detail-kpr {
+        float: left;
+        width: 80%;
+        margin: 0px 10% 40px;
+        padding: 25px 0 0 35px;
+    }
+    .premier-content-service-footer {
+        float: left;
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 35px 35px;
+    }
+    .image-two-left img {
+        width: 100%;
+        height: 260px;
+    }
+    .promo-banner-content {
+        height: 350;
+        width: 43%;
+    }
+    .font-h4-promo {
+        font-size: 16px;
+    }
+    .content-photo-promo {
+        margin: -391px 0 2% 50%;
+    }
+    .content-photo-promo2 {
+        margin: -441px 0 2% 50%;
+    }
+    .promo-content-image {
+        height: 350px;
+    }
+    .box-color-promo,
+    .box-color-promo-right {
+        height: 430;
+    }
+    .font-h4-promo-content {
+        font-size: 30px;
+    }
+    /*konsolidasi-page*/
+    .konsolidasi-page {
+        width: 86%;
+        margin: 0px 11%;
+    }
+    .konsolidasi-page h4 {
+        margin: 25px 0 15px 0;
+    }
+    .listKonsolidasi li {
+        list-style-type: initial !important;
+        text-align: left;
+        padding-left: 20px;
+        width: 400;
+    }
+    .table-kpr,
+    .table-biaya-khusus {
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 35px 0 35px;
+    }
+    .premier-content-service .footer-biaya-khusus {
+        margin: 0 0 35 0;
+        padding: 0;
+    }
+    .table-airport {
+        width: 80%;
+        margin: 0px 10%;
+        padding: 0px 35px 0 35px;
+    }
+    /*premier-center*/
+    .detail-premier-center {
+        float: left;
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 0 35px;
+    }
+    .select-premier-center {
+        margin-top: 20;
+    }
+    .form-select {
+        margin-left: 12%;
+        padding: 0 0 5% 18px;
+    }
+    .footer-premier-center {
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .sub-footer {
+        width: 33.3%;
+        padding-right: 20px;
+    }
+    .detail-member {
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 0 35px;
+    }
+    .image-get-premier {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .image-child img {
+        width: 100%;
+        height: 140px;
+    }
+    .white-member {
+        width: 80%;
+        margin: 6px 10% 2%;
+    }
+    .light-member {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .light1 {
+        justify-content: center;
+        width: 45%;
+    }
+    .premier-content-service .footer-member {
+        padding: 0;
+        margin: 35 0 0 0;
+    }
+    .sub-light {
+        width: 99%;
+        padding: 0 2%;
+    }
+    .checkbox-member {
+        width: 72%;
+        margin-left: 15%;
+        padding-top: 2%;
+    
+    }
+    .sub-light2 {
+        margin-left: 23%;
+    }
+    .title-box {
+        width: 72%;
+        display: flex;
+        margin-left: 17%;
+        justify-content: center;
+        padding-top: 4%;
+    }
+    .title-box p {
+        font-size: 14px;
+        width: 50%;
+        text-align: center;
+        margin: 0 4%;
+    }
+    .join-detail-member {
+        display: flex;
+        width: 70%;
+        margin-left: 16%;
+    }
+    .list-number-member p {
+        padding: 0;
+        margin-top: 0;
+        height: 30px;
+        margin-bottom: 0;
+    }
+    .margin-member {
+        margin-left: 8%;
+    }
+    /*benefit*/
+    .content-benefit img {
+        width: 100%;
+        height: 245px;
+    }
+    .detail-benefit h4 {
+        margin: 25px 0 15px 0;
+        font-size: 30px;
+    }
+    .content-benefit .image-two-left-content {
+        width: 95%;
+        margin-left: 5%;
+    }
+    .content-benefit {
+        height: 714px;
+    }
+    /*medical*/
+    .medical-page {
+        float: left;
+        width: 80%;
+        margin: 0px 10%;
+        padding: 25px 0 35px 35px;
+    }
+    .medical-page p {
+        float: left;
+        width: 90%;
+        margin: 0 0 15px 0;
+    }
+    .medical-page h4 {
+        margin: 25px 0 15px 0;
+    }
+    .listMedical {
+        padding-left: 16px;
+    }
+    .listMedical li {
+        list-style-type: initial !important;
+        text-align: left;
+        padding-left: 2px;
+        width: 60%;
+    }
+    .subtitle-medical {
+        font-size: 28px;
+    }
+    .list-safe-deposit li {
+        width: 90%;
+        margin-bottom: 13;
+    }
+    .text-detail-kpr {
+        font-size: 17px;
+        padding-top: 242px;
+    }
+    .text-detail-kpr .text-image {
+        padding-bottom: 14px;
+        font-weight: bolder;
+    }
+    .flag-premier-center {
+        width: 100%;
+        height: 300px;
+        padding: 4.5% 0 0 79%;
+    }
+    .flag-premier-center img {
+        width: 148px;
+        height: 80px;
+    }
+    .container-priv {
+        width: 23%;
+    }
+    .container-priv h4 {
+        text-align: center;
+        width: 86%;
+        font-size: 17px;
+        margin-left: 8%;
+    }
+    .post-slide-solutions {
+        /* border: 1px solid red; */
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .post-slide-solutions .post-item-slide-solutions .post {
+        background: rgb(92, 92, 236);
+        display: inline-block;
+        height: 394px;
+        width: 300px;
+        margin: 0px 6px;
+        overflow: hidden;
+        position: relative;
+    }
+    .post-slide-solutions .prev {
+        top: 50%;
+        left: 9%;
+    }
+    .post-slide-solutions .next {
+        top: 50%;
+        right: 9%;
+    }
+    .post-slide-solutions .post-item-slide-solutions {
+        margin: 0px auto;
+        width: 73%;
+        height: 357px;
+    }
+    .image-post-item img {
+        float: left;
+        width: 100%;
+        height: 207px;
+    }
+    .paper-desc {
+        float: left;
+        width: 100%;
+        height: 190px;
+    }
+    .post-desc {
+        font-size: 13px;
+    }
+    .button-desc {
+        font-size: 12px;
+    }
+    .name-insight {
+        font-size: 17px;
+        font-weight: bold;
+        color: #8C7A6A;
+        text-align: center;
+        padding: 0;
+        height: 33px;
+    }
+    .insight-panel {
+        display: inline-flex;
+        margin-left: 14%;
+        width: 50%;
+        margin-top: 15px;
+    }
+    .box-insight {
+        float: left;
+        width: 76%;
+        margin: 1rem 12% 5rem 12%;
+    }
+    .insight-result {
+        float: left;
+        width: 100%;
+        background-color: #f2f1f1;
+        padding: 0rem 0rem;
+    }
+    .line-insight {
+        display: block;
+    width: 110%;
+    margin-left: -5%;
+    }
+    .box-benefit {
+        height: 44%;
+    }
+    .font-h41 {
+        font-size: 28px;
+        width: 104%;
+    }
+    .form-egibility {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .select-egibility {
+        width: 30%;
+        height: 30px;
+    }
+    .select-egibility select {
+        width: 100%;
+        font-size: 14px;
+    }
+    .input-egibility {
+        width: 50%;
+    }
+    .item-input-egibility {
+        width: 100%;
+        font-size: 14px;
+    }
+    .btn-egibility .box-seemore {
+        margin-left: 0;
+    }
+    .white-egibility {
+        background-color: white;
+        margin: 50 0 90 0;
+        height: 970px;
+    }
+    .box-color-premier-service {
+        float: left;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .premier-content-service .footer-detail-airport {
+        margin: 0 0 35 0;
+        padding: 0px;
+    }
+    .detail-kpr .footer-kpr {
+        margin: 0 0 40 0;
+    }
+    .insight-menu-new {
+        width: 92%;
+        margin-left: 4%;
+    }
+    .insight-menu-new .nav-insight {
+        display: unset;
+    }
+    .item-nav-insight1,
+    .item-nav-insight2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    .insight-menu-new .nav2 {
+        padding: 0px 0 0px;
+    }
+    .white p {
+        height: 42px;
+    }
+    .wrapper-dropdown-3 {
+    margin: 15px 23% 50px 14%;
+    }
+    .box-color .overlay
+    {
+        width: 82%;
+        margin-bottom: 27%;
+        margin-left: 6%;
+        height: 72px;
+        padding-top: 6.5%;
+    }
+    .overlay {
+        width: 82%;
+        margin-bottom: 22%;
+        margin-left: 6%;
+        height: 72px;
+        padding-top: 9.5%;
+    }
+     /*new solution*/
+     .post-slide-solutions2 .next,
+     .post-slide-proteksi .next1,
+     .post-slide-investasi .next2,
+     .post-slide-pembiayaan .next3 {
+         right: 15%;
+         font-size: 2em;
+         top: 36%;
+     }
+     
+     .post-slide-solutions2 .prev,
+     .post-slide-proteksi .prev1,
+     .post-slide-investasi .prev2,
+     .post-slide-pembiayaan .prev3
+      {
+         left: 15%;
+         font-size: 2em;
+         top: 36%;
+     }
+     .post-slide-solutions2 .post-item-slide-solutions .post,
+     .post-slide-proteksi .post-item-slide-proteksi .post,
+     .post-slide-investasi .post-item-slide-investasi .post,
+     .post-slide-pembiayaan .post-item-slide-pembiayaan .post {
+         width: 300px;
+         margin: 0px 10px;
+         overflow: hidden;
+         position: relative;
+     }
+     .post-slide-solutions2 .post-item-slide-solutions,
+     .post-slide-proteksi .post-item-slide-proteksi,
+     .post-slide-investasi .post-item-slide-investasi,
+     .post-slide-pembiayaan .post-item-slide-pembiayaan  {
+        margin: 0px auto;
+        width: 62%;
+        overflow: hidden;
+        height: 260px;
+     }
+     .post-slide-solutions2 .post-item-slide-solutions img,
+     .post-slide-proteksi .post-item-slide-proteksi img,
+     .post-slide-investasi .post-item-slide-investasi img,
+     .post-slide-pembiayaan .post-item-slide-pembiayaan img{
+         height: 58%;
+         padding: 0px 2%;
+         width: 100%;
+     }
+     .post-slide-solutions2 .learn-label,
+     .post-slide-proteksi .learn-label,
+     .post-slide-investasi .learn-label,
+     .post-slide-pembiayaan .learn-label {
+         font-size: 18px !important;
+         font-weight: bold;
+         bottom: -2% !important;
+         top: 50%;
+         padding: 0;
+         color: #8a7a67;
+         font-family:'Helvetica', Arial, sans-serif;
+         font-size: 15px !important;
+     }
+     .post-slide-solutions2 .tooltip-wrap .tooltip-content,
+     .post-slide-proteksi .tooltip-wrap .tooltip-content,
+     .post-slide-pembiayaan .tooltip-wrap .tooltip-content,
+     .post-slide-investasi .tooltip-wrap .tooltip-content  {
+         bottom: 0%;
+         font-size: 14px;
+         background-color: #8C7A6A !important;
+         color: #F4F4F4;
+         padding-top: 0px;
+         padding-bottom: 0px;
+         height: 40%;
+     }
+     .post-slide-solutions2 .tooltip-wrap .tooltip-content .learn-more:hover,
+     .post-slide-proteksi .tooltip-wrap .tooltip-content .learn-more:hover,
+     .post-slide-investasi .tooltip-wrap .tooltip-content .learn-more:hover,
+     .post-slide-pembiayaan .tooltip-wrap .tooltip-content .learn-more:hover {
+         text-decoration: underline;
+     }
+     .post-slide-solutions2 .tooltip-content .learn-title,
+     .post-slide-proteksi .tooltip-content .learn-title,
+     .post-slide-pembiayaan .tooltip-content .learn-title,
+     .post-slide-investasi .tooltip-content .learn-title {
+         padding-top: 10%;
+         margin-top: 0%;
+         padding-bottom: 2%;
+         font-weight: bold;
+         font-size: 15px !important;
+     }
+     .text-image {
+        padding: 0 0 2px 0;
+        font-weight: bolder;
+    }
+    .content-footer {
+        margin: 10px 0 10px 0;
+        padding-top: 20px;
+        height: 208px;
+    }
+    
+}
+
+
+/* Solution Banking End */
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Premier Banking New Start */
+    .header{
+        height: 60px;
+        background-color: #F2F0FD;
+    }
+    .width-header{
+        width: 82%;
+        margin-left: 9%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .item1-header{
+        background-color: #6C4482;
+    }
+    .button-item1-header{
+        display: flex;
+        flex-direction: row;
+        padding: 12px 30px;
+        position: absolute;
+        width: 93px;
+        height: 38px;
+        top: 11px;
+        background: #6C4482;
+        border-radius: 5px;
+    }
+    .logo{
+        position: static;
+        width: 33px;
+        height: 14px;
+        left: 30px;
+        top: 12px;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .item2-header{
+        display: flex;
+        width: 65%;
+        justify-content: space-between;
+        height: 19px;
+        top: 20px;
+        margin-left: 19%;
+    }
+    .sub-item2-header{
+        height: 19px;
+        padding-top: 20px;
+    }
+    /*CONTENT*/
+    .text-home h4 {
+        width: 100%;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 38px;
+        color: #6C4482;
+        padding-top: 26%;
+    }
+    .text-home button {
+        height: 45px;
+        margin-top: 0px;
+    }
+    .background-home{
+        height: 500px;
+    }
+    .flex-home{
+        height: 460px;
+    }
+    .footer-image {
+        padding-top: 0%;
+    }
+    .avatar-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 15px solid #F2F0FD;
+        margin-left: 28px;
+    }
+    .avatar {
+        justify-content: center;
+        width: 205px;
+    }
+    .background2-home {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    
+   
+    /* Solution Banking End */
+}

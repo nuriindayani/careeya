@@ -1,0 +1,396 @@
+
+@media only screen and (min-width: 1025px)  {
+    .full{
+    display: block;
+    }
+    .tab{
+        display: none;
+    }
+    .bmobile{
+        display: none;
+    }
+    .mmobile{
+        display: none;
+    }
+    .smobile{
+        display: none;
+    }
+
+    .scfull{
+        background-color: #fff;
+    }
+    .tmpltfull
+    {
+    max-width: 100%!important;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .tmpltrowfull{
+        width: 80%;
+        margin: auto;
+    }
+    .tltfull{
+        padding-top:40px;
+        font-size: 1.8vmax;
+        letter-spacing: 1px;
+       
+    }
+    .prgrffull{
+        padding-top:0px;
+        font-size: 1.5vmax;
+        line-height: 1.4;
+        margin-left: 0px;
+    }
+    .tltfull2{
+        padding-top:20px;
+        font-size: 1.3vmax;
+        letter-spacing: 1px;
+        margin-left: 0px;
+    }
+    .prgrffull2{
+        font-size: 1.2vmax;
+        line-height: 1.4;
+        width: 80%;
+    }
+    /* unvisited link */
+    #hov:link {
+        color: #8a7a67!important;
+    }
+    
+    /* visited link */
+    #hov:visited {
+        color: #8a7a67!important;
+    }
+    
+    /* mouse over link */
+
+    #hov:hover{
+        color: black!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .full{
+    display: none;
+    }
+    .tab{
+        display: block;
+    }
+    .bmobile{
+        display: none;
+    }
+    .mmobile{
+        display: none;
+    }
+    .smobile{
+        display: none;
+    }
+    
+    .sctab{
+        background-color: #fff;
+    }
+    .tmplttab
+    {
+    max-width: 100%!important;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .tmpltrowtab{
+        width: 80%;
+        margin: auto;
+    }
+    .tlttab{
+        padding-top:40px;
+        font-size: 1.8vmax;
+        letter-spacing: 1px;
+       
+    }
+    .prgrftab{
+        padding-top:0px;
+        font-size: 1.5vmax;
+        line-height: 1.4;
+        margin-left: 0px;
+    }
+    .tlttab2{
+        padding-top:20px;
+        font-size: 1.3vmax;
+        letter-spacing: 1px;
+        margin-left: 0px;
+    }
+    .prgrftab2{
+        font-size: 1.2vmax;
+        line-height: 1.4;
+        width: 80%;
+    }
+    /* unvisited link */
+    #hov:link {
+        color: #8a7a67!important;
+    }
+    
+    /* visited link */
+    #hov:visited {
+        color: #8a7a67!important;
+    }
+    
+    /* mouse over link */
+
+    #hov:hover{
+        color: black!important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px){
+        .full{
+        display: none;
+        }
+        .tab{
+            display: none;
+        }
+        .bmobile{
+            display: block;
+        }
+        .mmobile{
+            display: none;
+        }
+        .smobile{
+            display: none;
+        }
+        
+        .scbmobile{
+            background-color: #fff;
+        }
+        .tmpltbmobile
+        {
+        max-width: 100%!important;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .tmpltrowbmobile{
+            width: 100%;
+            margin: auto;
+        }
+        .tmpltcolimgbmobile{
+            width:50%; 
+            margin-top:20px;
+            float:left; 
+            display:inline-block;
+        }
+        .tmpltcoltxtbmobile{
+            width:50%; 
+            float:right; 
+            display:inline-block;
+        }
+        .tltbmobile{
+            padding-top:15px;
+            font-size: 2.6vmax;
+            letter-spacing: 1px;
+            line-height: normal;
+           
+        }
+        .prgrfbmobile{
+            margin-top:-15px;
+            font-size: 2.3vmax;
+            line-height: 1.3;
+            margin-left: 0px;
+        }
+        .tltbmobile2{
+            padding-top:10%;
+            font-size: 2.3vmax;
+            letter-spacing: 1px;
+            margin-left: 20px;
+            color: #8a7a67;
+            font-weight: bold;
+        }
+        .prgrfbmobile2{
+            font-size: 2.1vmax;
+            line-height: 1.4;
+            width: 80%;
+            margin-left: 20px;
+        }
+        /* unvisited link */
+        #hov:link {
+            color: #8a7a67!important;
+        }
+        
+        /* visited link */
+        #hov:visited {
+            color: #8a7a67!important;
+        }
+        
+        /* mouse over link */
+    
+        #hov:hover{
+            color: black!important;
+        }
+}
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    .full{
+        display: none;
+        }
+        .tab{
+            display: none;
+        }
+        .bmobile{
+            display: none;
+        }
+        .mmobile{
+            display: block;
+        }
+        .smobile{
+            display: none;
+        }
+        
+        .scmmobile{
+            background-color: #fff;
+        }
+        .tmpltmmobile
+        {
+        max-width: 100%!important;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .tmpltrowmmobile{
+            width: 100%;
+            margin: auto;
+        }
+        .tmpltcolimgmmobile{
+            width:50%; 
+            margin-top:20px;
+            float:left; 
+            display:inline-block;
+        }
+        .tmpltcoltxtmmobile{
+            width:50%; 
+            float:right; 
+            display:inline-block;
+        }
+        .tltmmobile{
+            padding-top:15px;
+            font-size: 2.6vmax;
+            letter-spacing: 1px;
+            line-height: normal;
+           
+        }
+        .prgrfmmobile{
+            margin-top:-15px;
+            font-size: 2.3vmax;
+            line-height: 1.3;
+            margin-left: 0px;
+        }
+        .tltmmobile2{
+            padding-top:10%;
+            font-size: 2.3vmax;
+            letter-spacing: 1px;
+            margin-left: 20px;
+            color: #8a7a67;
+            font-weight: bold;
+        }
+        .prgrfmmobile2{
+            font-size: 2.1vmax;
+            line-height: 1.4;
+            width: 80%;
+            margin-left: 20px;
+        }
+        /* unvisited link */
+        #hov:link {
+            color: #8a7a67!important;
+        }
+        
+        /* visited link */
+        #hov:visited {
+            color: #8a7a67!important;
+        }
+        
+        /* mouse over link */
+    
+        #hov:hover{
+            color: black!important;
+        }
+}
+
+@media only screen and (min-width: 220px)and (max-width: 480px) {
+    .full{
+        display: none;
+        }
+        .tab{
+            display: none;
+        }
+        .bmobile{
+            display: none;
+        }
+        .mmobile{
+            display: none;
+        }
+        .smobile{
+            display: block;
+        }
+    
+        
+        .scsmobile{
+            background-color: #fff;
+        }
+        .tmpltsmobile
+        {
+        max-width: 100%!important;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .tmpltrowsmobile{
+            width: 100%;
+            margin: auto;
+        }
+        .tmpltcolimgsmobile{
+            width:50%; 
+            margin-top:20px;
+            float:left; 
+            display:inline-block;
+        }
+        .tmpltcoltxtsmobile{
+            width:50%; 
+            float:right; 
+            display:inline-block;
+        }
+        .tltsmobile{
+            padding-top:15px;
+            font-size: 2vmax;
+            letter-spacing: 1px;
+            line-height: normal;
+           
+        }
+        .prgrfsmobile{
+            margin-top:-25px;
+            font-size: 1.9vmax;
+            line-height: 1.3;
+            margin-left: 0px;
+        }
+        .tltsmobile2{
+            padding-top:13%;
+            font-size: 1.7vmax;
+            letter-spacing: 1px;
+            margin-left: 20px;
+            color: #8a7a67;
+            font-weight: bold;
+        }
+        .prgrfsmobile2{
+            font-size: 1.2vmax;
+            line-height: 1.4;
+            width: 80%;
+            margin-left: 20px;
+            margin-top:-15px;
+        }
+        /* unvisited link */
+        #hov:link {
+            color: #8a7a67!important;
+        }
+        
+        /* visited link */
+        #hov:visited {
+            color: #8a7a67!important;
+        }
+        
+        /* mouse over link */
+    
+        #hov:hover{
+            color: black!important;
+        }
+}
